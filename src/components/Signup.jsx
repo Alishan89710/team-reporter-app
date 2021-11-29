@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Input, Button } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
+import 'antd/dist/antd.css';
 
 const HorizontalLoginForm = () => {
     const [form] = Form.useForm();
