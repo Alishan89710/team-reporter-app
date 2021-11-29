@@ -1,12 +1,12 @@
+import { Routes } from 'react-router';
 import './App.css';
-import Demo, {Login }from './components/Login';
-import HorizontalLoginForm from './components/Signup'
+import Rout from './Routes/Router';
+
 
 function App() {
   return (
     <div className="App">
-       <Demo />
-       <HorizontalLoginForm />
+       <Rout />
 
     </div>
   );
